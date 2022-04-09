@@ -1,0 +1,142 @@
+.device-notification--logo img,.header--logo img{
+    max-width: 30px;
+}
+.align-center{
+    text-align: center;
+}
+.slider--item-image{
+    border-radius: 30px!important;
+}
+.p-0{
+    padding: 0!important;
+}
+.about--banner h2::after{
+    content: none!important;
+}
+
+.skill-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.skill-list{
+    max-width: 80%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+
+}
+.skill{
+    padding: .5rem;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    cursor: default;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+.skill h3{
+    margin-top: 0;
+}
+.skill img{
+    width: 25%;
+}
+
+.skill:not(:hover) img{
+    filter: grayscale(100%);
+}
+
+.muted{
+    opacity: .7;
+}
+
+.form-contact-parent{
+    flex-grow: 1;
+    padding: 3rem;
+}
+
+.form-contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+}
+.form-contact input, .form-contact textarea{
+    color: white;
+    padding: 0.5rem;
+    background: #242424;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+.form-contact button{
+    background-color: #0f33ff;
+    border: #0f33ff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.contact--lockup{
+    justify-content: center!important;
+    flex-wrap: wrap;
+}
+.contactTabController{
+    color: white!important;
+    opacity: .7;
+    display: none;
+}
+.contactTabController:focus, .contactTabController:hover{
+    opacity: 1;
+}
+@media (max-width: 600px) {
+    .contact--lockup>div:not(.active){
+        display: none;
+    }
+    .contactTabController.active{
+        display: block;
+    }
+}
+
+
+.contact--lockup .modal--options a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact--lockup .modal--options a svg{
+    margin-right: 1rem;
+}
+
+.modal{
+    margin-bottom: 3rem;
+}
+
+.linkedin{
+    background-color: #0e76a8 !important;
+}
+.github{
+    background-color: #fafafa !important;
+}
+.github a{
+    color:#333 !important;
+}
+.twitter{
+    background-color: #1da1f2 !important;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
