@@ -1,5 +1,6 @@
 .device-notification--logo img,.header--logo img{
-    max-width: 30px;
+    width: 30px;
+    height: 30px;
 }
 .align-center{
     text-align: center;
