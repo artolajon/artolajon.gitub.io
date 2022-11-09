@@ -96,6 +96,7 @@
 .contactTabController:focus, .contactTabController:hover{
     opacity: 1;
 }
+
 @media (max-width: 600px) {
     .contact--lockup>div:not(.active){
         display: none;
@@ -103,6 +104,16 @@
     .contactTabController.active{
         display: block;
     }
+
+    .contact--lockup>div, .contactTabController.hide{
+        opacity: 1;
+        transition: opacity .25s;
+    }
+    .contact--lockup>div.hide, .contactTabController.hide{
+        opacity: 0;
+    }
+
+    
 }
 
 
