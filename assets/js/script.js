@@ -29,3 +29,19 @@ function show(element){
         element.classList.remove("hide");
     }, 250);
 }
+
+function showSkills(tag){
+    document.getElementById('first-level').style.display='none';
+    document.getElementById('second-level').style.display='flex';
+    document.getElementById(tag).style.display='flex';
+}
+
+function showSkillsMenu(){
+    document.getElementById('second-level').style.display='none';
+    document.getElementById('first-level').style.display='flex';
+
+    let elements = document.getElementsByClassName("sub-list");
+    for (const element of elements) {
+        element.style.display = 'none';
+    }
+}

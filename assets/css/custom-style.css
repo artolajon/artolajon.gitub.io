@@ -37,22 +37,38 @@
 .skill{
     padding: .5rem;
     width: 200px;
-    margin-bottom: 10px;
+    margin: 10px;
     border: 2px solid #fff;
     cursor: default;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    text-align: center;
+}
+
+.small-skill{
+    padding: .25rem;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid #fff;
+    cursor: default;
     text-align: center;
 }
 .skill h3{
     margin-top: 0;
 }
-.skill img{
-    width: 25%;
+.skill svg{
+    stroke: white;
 }
 
-.skill:not(:hover) img{
-    filter: grayscale(100%);
+.skill:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.skill:hover svg{
+    stroke: black;
+}
+
+.second-level, .skill-list.sub-list{
+    display: none;
 }
 
 .muted{
